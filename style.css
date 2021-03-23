@@ -1,11 +1,25 @@
-html {
-    margin: 0;
-    padding: 0;
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.70em;
 }
-body {
-    margin: 0;
-    padding: 0;
+
+.screen {
+    height: 100%;
+    border: 2px solid green;
 }
-title {
-    margin: 30px 30px 30px 30px;
+.col-main {
+    border: 2px solid purple;
 }
+.options-list {
+    font-size: 1.6em;
+}
+.row {
+    height: 100%;
+    border: 2px solid yellowgreen;
+}
+
+#btn-compose {
+    font-size: 2em;
+}
+

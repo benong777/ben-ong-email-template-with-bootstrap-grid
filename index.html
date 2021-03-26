@@ -40,7 +40,7 @@
                 <form action="" method="">
                     <div class="form-group">
                         <div class="input-group">
-                            <svg id="search-icon" class="border border-right-0 rounded-left" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <svg id="search-icon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-search border border-right-0 rounded-left" viewBox="0 0 16 16">
                                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
                             <input type="text" class="form-control border-left-0" id="search-input" placeholder="Search for emails">
                         </div>
@@ -63,11 +63,11 @@
                 <div class="container">
                     <!-- Email header -->
                     <div class="row">
-                        <div class="col">To:</div>
+                        <div class="col">To: <br>From: <br>
+                        </div>    
                     </div>
-                    <div class="row">
-                        <div class="col">From:</div>
-                    </div>
+
+                    <!-- Email Subject -->                    
                     <div class="row">
                         <div class="col">Subject</div>
                         <div class="col-1 ">Icons</div>
@@ -78,6 +78,24 @@
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ratione, sit error incidunt voluptatum, vitae non nesciunt sequi voluptatibus labore aliquam voluptatem corporis atque veritatis necessitatibus iusto, veniam unde iste sint laborum! Voluptatem nam maiores totam hic non aperiam, eum ut reiciendis voluptatibus eius voluptates magni similique. Odit, optio quis.
                         </div>
                     </div>
+                    <div class="row email-reply">
+                        <div class="input-group">
+
+                        </div>
+                    </div>
+
+                    <!-- Email reply -->
+                    <form action="" method="">
+                        <div class="form-group  border rounded">
+                            <textarea type="text" class="form-control border-0" id="email-reply rows="3"></textarea>
+                            <button class="btn p-1 bg-transparent"><svg id="attachment-icon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16">
+                                <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
+                              </svg>
+                            </button>
+                        </div>
+                    </form>
+
+                    
 
                 
             </div>

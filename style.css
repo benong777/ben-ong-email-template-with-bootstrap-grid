@@ -19,6 +19,10 @@ html, body {
     /*border: 2px solid yellowgreen;*/
 }
 
+textarea {
+    resize: none;
+}
+
 #btn-compose {
     font-size: 2em;
 }
@@ -26,6 +30,9 @@ html, body {
     text-align: right;
 }
 #search-icon {
+    padding: 4px; 
+}
+#attachment-icon {
     padding: 4px;
 }
 

@@ -25,4 +25,7 @@ html, body {
 #notification-date {
     text-align: right;
 }
+#search-icon {
+    padding: 4px;
+}
 

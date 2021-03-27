@@ -11,6 +11,13 @@ html, body {
 .col-main {
     border: 2px solid purple;
 }
+.col-menu {
+    background-color: rgb(48, 41, 41);
+    color: white;
+}
+.col-notification {
+    background-color: gray;
+}
 .options-list {
     font-size: 1.6em;
 }
@@ -45,7 +52,8 @@ textarea {
     text-align: right;
 }
 #search-icon {
-    padding: 4px; 
+    padding: 4px;
+    background-color: transparent; 
 }
 #attachment-icon {
     padding: 4px;

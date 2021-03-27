@@ -18,14 +18,13 @@
 <body>
     <div class="container-fluid screen">
         <div class="row row-menu">
-            <div class="col-12 col-sm-4 col-md-2 col-main">
+            <div class="col-12 col-sm-4 col-md-2 col-main col-menu pt-4">
                 <div>
                     <img src="" alt="Profile image">
                     Welcome back, Ben!
                 </div>
-                <!-- ??? How to keep button from going into the next column -->
-                <!-- ??? Restrict the size of the button (not bigger than XXX) -->
-                <button id="btn-compose" class="btn-primary btn-sm">Compose</button>
+                
+                <button id="btn-compose" class="btn-primary btn-sm mt-5">Compose</button>
                 <div class="mt-5 mb-5 options-list">
                     <a href="#" alt="Inbox">Inbox(1)</a> <br>
                     <a href="#" alt="Tagged">Tagged</a> <br>
@@ -35,7 +34,7 @@
                     <a href="#" alt="Trash">Trash</a> <br>
                 </div>
             </div>
-            <div class="col-12 col-sm-8 col-md-3 col-main">
+            <div class="col-12 col-sm-8 col-md-3 col-main col-notification pt-4">
                 <!-- Search bar -->
                 <form action="" method="">
                     <div class="form-group">
@@ -48,7 +47,7 @@
                 </form>
 
                 <!-- Search results cards -->
-                <div class="card">
+                <div class="card mt-5 card-top">
                     <div class="card-body">
                         <div class="row">
                             <div id="notification-title" class="col card-text">Title</div>
@@ -58,8 +57,18 @@
                     </div>
                 </div>
 
+                <div class="card mt-4 card-middle">
+                    <div class="card-body">
+                        <div class="row">
+                            <div id="notification-title" class="col card-text">Title</div>
+                            <span id="notification-date"  class="col card-text">Mar 2, 2021</span>
+                        </div>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero qui velit eos quos adipisci placeat ad similique, ea labore et, porro inventore deleniti cumque..</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-7 col-main">
+
+            <div class="col-12 col-sm-12 col-md-7 col-main col-email pt-4">
                 <div class="container">
                     <!-- Email header -->
                     <div class="row">
@@ -69,7 +78,7 @@
 
                     <!-- Email Subject -->                    
                     <div class="row d-flex flex-row justify-content-between">
-                        <div class="col-8">Subject</div>
+                        <div class="col-8 mt-5">Subject:</div>
                         <div class="col-4">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots float-right" viewBox="0 0 16 16">
                                 <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
@@ -124,7 +133,7 @@
 
 
                     <!-- Email content -->
-                    <div class="row email-content">
+                    <div class="row email-content mt-4">
                         <div class="col">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ratione, sit error incidunt voluptatum, vitae non nesciunt sequi voluptatibus labore aliquam voluptatem corporis atque veritatis necessitatibus iusto, veniam unde iste sint laborum! Voluptatem nam maiores totam hic non aperiam, eum ut reiciendis voluptatibus eius voluptates magni similique. Odit, optio quis.
                         </div>
@@ -137,8 +146,8 @@
 
                     <!-- Email reply -->
                     <form action="" method="">
-                        <div class="form-group border rounded">
-                            <textarea type="text" class="form-control border-0" id="email-reply" rows="3"> 
+                        <div class="form-group border rounded mt-5">
+                            <textarea type="text" class="form-control border-0" id="email-reply" rows="5"> 
                             </textarea>
                                 <div class="row d-flex justify-content-between">
                                     <div class="col-2"><svg id="attachment-icon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="float-left bi bi-paperclip" viewBox="0 0 16 16">

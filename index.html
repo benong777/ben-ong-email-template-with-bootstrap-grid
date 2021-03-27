@@ -19,19 +19,21 @@
     <div class="container-fluid screen">
         <div class="row row-menu">
             <div class="col-12 col-sm-4 col-md-2 col-main col-menu pt-4">
+                <!-- Welcome message -->
                 <div>
                     <img src="" alt="Profile image">
                     Welcome back, Ben!
                 </div>
-                
-                <button id="btn-compose" class="btn-primary btn-sm mt-5">Compose</button>
+                <button id="btn-compose" class="btn btn-primary mt-5 border border-0">Compose</button>
+
+                <!-- Options list -->
                 <div class="mt-5 mb-5 options-list">
-                    <a href="#" alt="Inbox">Inbox(1)</a> <br>
-                    <a href="#" alt="Tagged">Tagged</a> <br>
-                    <a href="#" alt="Important">Important</a> <br>
-                    <a href="#" alt="Sent mail">Sent Mail</a> <br>
-                    <a href="#" alt="Drafts">Drafts</a> <br>
-                    <a href="#" alt="Trash">Trash</a> <br>
+                    <a class="text-white" href="#" alt="Inbox">Inbox(1)</a> <br>
+                    <a class="text-white" href="#" alt="Tagged">Tagged</a> <br>
+                    <a class="text-white" href="#" alt="Important">Important</a> <br>
+                    <a class="text-white" href="#" alt="Sent mail">Sent Mail</a> <br>
+                    <a class="text-white" href="#" alt="Drafts">Drafts</a> <br>
+                    <a class="text-white" href="#" alt="Trash">Trash</a> <br>
                 </div>
             </div>
             <div class="col-12 col-sm-8 col-md-3 col-main col-notification pt-4">
@@ -47,10 +49,20 @@
                 </form>
 
                 <!-- Search results cards -->
-                <div class="card mt-5 card-top">
+                <div class="card mt-5 border-0 card-top">
                     <div class="card-body">
                         <div class="row">
-                            <div id="notification-title" class="col card-text">Title</div>
+                            <div id="notification-title" class="col card-text">Title 1</div>
+                            <span id="notification-date"  class="col card-text">Mar 1, 2021</span>
+                        </div>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero qui velit eos quos adipisci placeat ad similique, ea labore et, porro inventore deleniti cumque..</p>
+                    </div>
+                </div>
+
+                <div class="card mt-4 card-middle">
+                    <div class="card-body">
+                        <div class="row">
+                            <div id="notification-title" class="col card-text">Title 2</div>
                             <span id="notification-date"  class="col card-text">Mar 2, 2021</span>
                         </div>
                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero qui velit eos quos adipisci placeat ad similique, ea labore et, porro inventore deleniti cumque..</p>
@@ -60,25 +72,26 @@
                 <div class="card mt-4 card-middle">
                     <div class="card-body">
                         <div class="row">
-                            <div id="notification-title" class="col card-text">Title</div>
-                            <span id="notification-date"  class="col card-text">Mar 2, 2021</span>
+                            <div id="notification-title" class="col card-text">Title 3</div>
+                            <span id="notification-date"  class="col card-text">Mar 3, 2021</span>
                         </div>
                         <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis vero qui velit eos quos adipisci placeat ad similique, ea labore et, porro inventore deleniti cumque..</p>
                     </div>
                 </div>
+                
             </div>
 
             <div class="col-12 col-sm-12 col-md-7 col-main col-email pt-4">
                 <div class="container">
                     <!-- Email header -->
                     <div class="row">
-                        <div class="col">To: <br>From: <br>
+                        <div class="col">To: john-doe@html.com<br>From: Ben<br>
                         </div>    
                     </div>
 
                     <!-- Email Subject -->                    
                     <div class="row d-flex flex-row justify-content-between">
-                        <div class="col-8 mt-5">Subject:</div>
+                        <div class="col-8 mt-5">Subject: Appointment reminder</div>
                         <div class="col-4">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots float-right" viewBox="0 0 16 16">
                                 <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
@@ -115,7 +128,7 @@
                                         <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
                                             </svg>
                                     </div>
-                                    <div class="col-2"><button class="float-right btn btn-primary py-1 ">Reply</button>
+                                    <div class="col-2 mr-1"><button class="float-right btn btn-primary py-1 ">Reply</button>
                                     </div>
                                 </div>
                         </div>

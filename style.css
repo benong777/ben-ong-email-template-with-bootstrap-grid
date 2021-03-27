@@ -6,10 +6,8 @@ html, body {
 
 .screen {
     height: 100%;
-    border: 2px solid green;
 }
 .col-main {
-    border: 2px solid purple;
 }
 .col-menu {
     background-color: rgb(48, 41, 41);
@@ -40,6 +38,11 @@ html, body {
     margin-left: 5px;
     margin-right: 5px;
 }
+/*
+.card {
+    border: none;
+}
+*/
 
 textarea {
     resize: none;
@@ -47,6 +50,7 @@ textarea {
 
 #btn-compose {
     font-size: 2em;
+    background-color: orange;
 }
 #notification-date {
     text-align: right;

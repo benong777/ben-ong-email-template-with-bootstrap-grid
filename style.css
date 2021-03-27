@@ -18,6 +18,21 @@ html, body {
     height: 100%;
     /*border: 2px solid yellowgreen;*/
 }
+.bi-reply-fill{
+    padding: 1px 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.bi-three-dots {
+    padding: 1px 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.bi-trash-fill {
+    padding: 2px 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
 textarea {
     resize: none;
@@ -35,4 +50,5 @@ textarea {
 #attachment-icon {
     padding: 4px;
 }
+
 

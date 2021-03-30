@@ -80,7 +80,6 @@ textarea {
     margin-top: 80px;
 }
 .search-box:focus {
-    border: none;
     box-shadow: none;
 }
 .welcome-msg {
@@ -97,6 +96,9 @@ textarea {
     margin-bottom: 50px;
     margin-right: 400px;
     max-width: 120px;
+}
+#btn-compose:focus {
+   box-shadow: none;
 }
 #search-icon {
     padding: 4px;

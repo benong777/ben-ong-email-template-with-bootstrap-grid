@@ -7,14 +7,24 @@ html, body {
 .screen {
     height: 100%;
 }
-.col-main {
-}
 .col-menu {
     background-color: rgb(48, 41, 41);
     color: white;
 }
-.col-notification {
+.card {
+    margin-top: 4rem;
+}
+.card-body {
+    padding-bottom: .5rem;
+} 
+.notification-col {
     background-color: gray;
+}
+.notification-date {
+    float: right;
+}
+.notification-title {
+    margin-bottom: 0.3rem;
 }
 .options-list {
     font-size: 1.6em;
@@ -43,6 +53,13 @@ html, body {
     border: none;
 }
 */
+.email-reply-box:focus {
+    /*box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);*/
+    /*outline: none;*/
+   box-shadow: none;
+
+}
+
 
 textarea {
     resize: none;
@@ -52,8 +69,8 @@ textarea {
     font-size: 2em;
     background-color: orange;
 }
-#notification-date {
-    text-align: right;
+#email-reply-btn {
+    /*margin-top: 10px;*/
 }
 #search-icon {
     padding: 4px;

@@ -3,23 +3,24 @@ html, body {
     height: 100vh;
     font-size: 0.70em;
 }
-.screen {
-    height: 100%;
-}
 
 textarea {
     resize: none;
 }
 
+/* Classes */
+.screen {
+    height: 100%;
+}
 .card {
     margin-top: 4rem;
 }
 .card-body {
     padding-bottom: .5rem;
 } 
-.col-menu {
+.menu-col {
     color: white;
-    background-color: rgb(48, 41, 41);
+    background-color: rgb(51, 50, 50);
     padding-left: 22px;
     padding-right: 36px;
 }
@@ -40,7 +41,6 @@ textarea {
 }
 .row {
     height: 100%;
-    /*border: 2px solid yellowgreen;*/
 }
 .bi-reply-fill{
     padding: 1px 1px;
@@ -66,7 +66,6 @@ textarea {
 .notification-card:hover {
     background-color: rgb(209, 206, 206);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-
 }
 .reply-box-container {
     padding-bottom: 34px;
@@ -82,6 +81,7 @@ textarea {
     float: left;
 }
 
+/* IDs */
 #btn-compose {
     font-size: 1.5em;
     background-color: orange;
@@ -94,7 +94,6 @@ textarea {
     padding: 4px;
     background-color: white; 
 }
-
 #attachment-icon {
     padding: 4px;
 }

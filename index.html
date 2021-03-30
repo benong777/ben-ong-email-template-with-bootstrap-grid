@@ -18,16 +18,20 @@
 <body>
     <div class="container-fluid screen">
         <div class="row row-menu">
-            <div class="col-12 col-sm-4 col-md-2 col-main col-menu pt-4">
+            <div class="col-12 col-sm-4 col-md-2 col-menu pt-4">
                 <!-- Welcome message -->
-                <div>
-                    <img src="" alt="Profile image">
-                    Welcome back, Ben!
+                <div class="welcome-row">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-person-circle float-left pt-2 mr-2" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                    </svg>
+                    <span class="welcome-msg">Welcome, Ben!</span><br>
                 </div>
-                <button id="btn-compose" class="btn btn-primary mt-5 border border-0">Compose</button>
+
+                <button id="btn-compose" class="btn btn-primary border border-0">Compose</button>
 
                 <!-- Options list -->
-                <div class="mt-5 mb-5 options-list">
+                <div class=" options-list">
                     <a class="text-white" href="#" alt="Inbox">Inbox(1)</a> <br>
                     <a class="text-white" href="#" alt="Tagged">Tagged</a> <br>
                     <a class="text-white" href="#" alt="Important">Important</a> <br>
@@ -36,7 +40,7 @@
                     <a class="text-white" href="#" alt="Trash">Trash</a> <br>
                 </div>
             </div>
-            <div class="col-12 col-sm-8 col-md-3 col-main notification-col pt-4">
+            <div class="col-12 col-sm-8 col-md-3 notification-col pt-4">
                 <!-- Search bar -->
                 <form action="" method="">
                     <div class="form-group">
@@ -58,22 +62,22 @@
                 </div>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-7 col-main col-email pt-4">
+            <div class="col-12 col-sm-12 col-md-7 col-email pt-4">
                 <div class="container">
                     <!-- Email header -->
                     <div class="row">
-                        <div class="col">To: john-doe@html.com<br>From: Ben<br>
+                        <div class="col">To: support@gmail.com<br>From: ben@webapp.com<br>
                         </div>    
                     </div>
 
                     <!-- Email Subject -->                    
-                    <div class="email-subject h4 mt-4 pt-1">Test
+                    <div class="email-subject h4 mt-4 pt-1">Appointment reminder
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots float-right" viewBox="0 0 16 16">
                                 <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
                             </svg>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reply-fill float-right" viewBox="0 0 16 16">
-                                <path d="M5.921 11.9L1.353 8.62a.719.719 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"/>
+                                <path d="M5.921 11.9L1.353 8.62a.719.719 0 0 1 0-1.238L5.921 4.1A.716.716 0 0 1 7 4.719V6c1.5 0 6 0 7 8-2.5-4.5-7-4-7-4v1.281c0 .56-.606.898-1.079.62z"/>   
                             </svg>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill float-right" viewBox="0 0 16 16">
                                 <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
@@ -87,17 +91,12 @@
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ratione, sit error incidunt voluptatum, vitae non nesciunt sequi voluptatibus labore aliquam voluptatem corporis atque veritatis necessitatibus iusto, veniam unde iste sint laborum! Voluptatem nam maiores totam hic non aperiam, eum ut reiciendis voluptatibus eius voluptates magni similique. Odit, optio quis.
                         </div>
                     </div>
-                    <div class="row email-reply">
-                        <div class="input-group">
-
-                        </div>
-                    </div>
 
                     <!-- Email reply -->
                     <form action="" method="">
-                        <div class="form-group border rounded pb-5 mt-5">
+                        <div class="form-group reply-box-container border rounded">
                             <textarea class="form-control email-reply-box border-0" rows="6"></textarea>
-                            <button id="email-reply-btn" class="float-right btn btn-primary mr-2 mt-1">Reply</button>
+                            <button class="email-reply-btn float-right btn btn-outline-warning mr-2 mt-1">Reply</button>
                             <svg id="attachment-icon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="float-left bi bi-paperclip mt-1" viewBox="0 0 16 16">
                                 <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
                                     </svg>
